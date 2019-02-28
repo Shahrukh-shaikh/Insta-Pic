@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".SetupActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Choose a profile picture"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <ImageButton
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/setUp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/addimage"
+        android:layout_marginLeft="60dp"
+        android:onClick="profilepicButton"
+        tools:ignore="OnClick" />
+
+    <EditText
+        android:id="@+id/namepic"
+        android:layout_width="match_parent"
+        android:layout_margin="50dp"
+        android:layout_height="40dp"
+       android:textAlignment="center"
+        android:background="@drawable/editshape"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Name" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="doneButtonClicked"
+        android:text="Proceed to Log in"
+        android:background="@color/colorPrimary"
+        tools:ignore="OnClick" />
+
+
+</LinearLayout>

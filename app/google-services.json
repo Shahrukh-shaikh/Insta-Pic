@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "990800059940",
+    "firebase_url": "https://instapic2-5f42b.firebaseio.com",
+    "project_id": "instapic2-5f42b",
+    "storage_bucket": "instapic2-5f42b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990800059940:android:ef77572611754223",
+        "android_client_info": {
+          "package_name": "com.example.shahrukh.instapic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990800059940-81h2fhgl48csie6aojrdvsjj4o6mi7o6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shahrukh.instapic",
+            "certificate_hash": "6939e941b188f0353768cb9abe11c05aacab3ab2"
+          }
+        },
+        {
+          "client_id": "990800059940-dffkrt15t0hrjj9mbgsm8su325qi9lhd.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "990800059940-dffkrt15t0hrjj9mbgsm8su325qi9lhd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSC8WvCPUY03cbZMPIBlY7-Rtt0WmdWqc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990800059940-dffkrt15t0hrjj9mbgsm8su325qi9lhd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

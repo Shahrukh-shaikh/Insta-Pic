@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    tools:context=".RegisterActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:background="@drawable/bl"
+            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameField"
+
+            android:hint="Enter Name"
+            />
+
+        <EditText
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailField"
+            android:hint="Enter Email"
+            />
+
+        <EditText
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pass"
+            android:hint="Enter Password"
+
+            android:shadowColor="@color/colorPrimary"
+            />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:background="@color/colorPrimary"
+            android:id="@+id/register"
+            android:onClick="registerButton"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+           android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:text="Already have account?"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:onClick="clickhere"
+                android:layout_height="wrap_content"
+                android:text="Click Here"
+                tools:ignore="OnClick" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

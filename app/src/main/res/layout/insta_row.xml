@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="horizontal">
+
+
+
+       <de.hdodenhof.circleimageview.CircleImageView
+           xmlns:app="http://schemas.android.com/apk/res-auto"
+           android:id="@+id/profile"
+           android:layout_width="35dp"
+           android:layout_height="35dp"
+           app:civ_border_width="0dp"
+           app:civ_border_color="#FF000000"/>
+
+       <TextView
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="10dp"
+           android:textStyle="bold"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="User name"
+           android:textColor="#000"
+           android:id="@+id/username"/>
+   </LinearLayout>
+
+    <ImageView
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="center"
+        android:id="@+id/post_image"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post Title"
+            android:textColor="#000"
+            android:layout_margin="5dp"
+
+            android:id="@+id/texttitle"
+            />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post description"
+        android:textStyle="italic"
+        android:layout_margin="5dp"
+        android:id="@+id/description"
+        />
+
+
+
+</LinearLayout>
+
+</android.support.v7.widget.CardView>
